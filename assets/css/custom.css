@@ -1,0 +1,7 @@
+.instruction-list {
+    
+}
+
+.instruction-list-item::before {
+    content: 'ꞏ '
+}
