@@ -1,0 +1,72 @@
+---
+layout: default
+---
+<div class="container">
+        <form action="" method="POST">
+            <div class="field">
+                <label class="label" for="ime_bolnice">Ime bolnice</label>
+                <div class="control">
+                    <input id="ime_bolnice" class="input" type="text" name="entry.1879591600" required>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label" for="lokacija">Lokacija</label>
+                <div class="control">
+                    <input id="lokacija" class="input" type="text" name="entry.1705002490" required>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label" for="kontakt_osoba">Kontakt osoba (ime, telefon, pozicija u ustanovi)<label>
+                <div class="control">
+                    <input id="kontakt_osoba" class="input" type="text" name="entry.1795320877" required>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label" for="neophodan_broj">Neophodan broj</label>
+                <div class="control">
+                    <input id="neophodan_broj" class="input" type="number" name="entry.90145678" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <label class="radio">
+                        <input   type="radio" name="potreba">
+                        Anestezija i intezivna
+                    </label>
+                </div>
+                <div class="control">
+                    <label class="radio">
+                        <input  type="radio" name="potreba">
+                        Infektivna
+                    </label>
+                </div>
+                <div class="control">
+                    <label class="radio">
+                        <input  type="radio" name="potreba">
+                        Lecenje kriticnih bolesnika na respiratorima i kiseoniku
+                    </label>
+                </div>
+                <div class="control">
+                    <label class="radio">
+                        <input type="radio" name="potreba">
+                        Drugo (napisati u opisu ispod)
+                    </label>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label" for="opis">Opis</label>
+                <div class="control">
+                    <input id="opis" class="input" type="text">
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <input class="button is-warning" type="submit" value="Posalji formu">
+                </div>
+            </div>
+            
+        </form>
+</div>

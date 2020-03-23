@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/bulma.min.css">
+        <title>Vizionari</title>
+    </head>
+    <body>
+           <div class="container">
+<div class="nav is-light">
+    <nav class="navbar is-warning" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="/index.html">
+                    Početna
+                    </a>
+                    <a class="navbar-item" href="/uputstva.html">
+                    Uputstva za izradu 
+                    </a>
+                    <a class="navbar-item" href="/porucivanje.html">
+                    Poručivanje vizira
+                    </a>
+                </div>
+        </div>
+    </nav>
+</div>
+</div>
+  <script>
+        let burger = document.querySelector('.burger');
+        let nav = document.querySelector('#'+burger.dataset.target);
+        console.log(nav);
+        console.log(burger);
+        burger.addEventListener('click', (e) => {
+          nav.classList.toggle('is-active');
+        });
+  </script>
+
+           <div class="container">
+        <h1 class="title is-warning">Vizionari Srbije</h1>
+
+        <p>Grupa ljudi koja uz pomoć 3D stampe prave zaštitinu medicinsku opremu za borbu 
+        protiv korona virusa.</p>
+
+        <p>Komunikacija se odvija preko Facebook grupe <a href="https://www.facebook.com/groups/vizionarisrbije/">Vizionari Srbije</a>. Tamo
+        možete postaviti pitanje i stupiti u kontakt sa drugim vizionarima.</p>
+
+        <p>Ukoliko elite i imate mogucnosti da pravite vizire procitajte <a href="uputstva.html">uputstvo</a>.</p>
+        <p>Ukoliko su vam potrebni viziri ispunite sledecu <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3KCGMmCIbWBj-jgIz4mQYz1U_VPzqMEQFa2Qwyd5pRvLvcA/viewform">formu</a>.</p>
+</div>
+
+
+    </body>
+</html>
