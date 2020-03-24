@@ -2,13 +2,15 @@
 layout: default
 ---
 <div class="container">
-        <h2 class="title has-text-warning has-text-centered">Obaveštenja</h2>
-        <ul>
-            {% for ob in site.data.obavestenja %}
-                <li>
-                    <h3 class="is-size-5 notify-title">{{ob.naslov}}</h3>
-                    <p>{{ob.tekst}}</p>
-                </li>
-            {% endfor %}
-        </ul>
+        <div class="content">
+                <h2 class="title has-text-warning has-text-centered">Obaveštenja</h2>
+                <ul>
+                    {% for ob in site.data.obavestenja %}
+                        <li>
+                            <h3 class="is-size-5 notify-title">{{ob.naslov}}</h3>
+                            <p>{{ob.tekst}}</p>
+                        </li>
+                    {% endfor %}
+                </ul>
+        </div>
 </div>
