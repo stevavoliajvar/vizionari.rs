@@ -1,8 +1,23 @@
 
-.instruction-list {
-    
+.instruction-list  li::before{
+    content: 'ꞏ '
 }
 
 .instruction-list-item::before {
     content: 'ꞏ '
 }
+
+.notify-title {
+    margin-bottom: 5px;
+    border-bottom: 3px dotted #ffdd57;
+}
+
+/* bulma modifications */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.content {
+    padding: 0 20px;
+}
+
